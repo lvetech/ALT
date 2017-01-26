@@ -39,6 +39,8 @@ As a practical starting point, the Kinect system can be placed at approximately 
 
 Discussion of the relations between the properties of the light texture an ALT-generating element imparts to the body and the properties of the captured ALT data will be done separately.
 
+Note that the added “artificial light texture” plays the role of an amplification medium for small body movements and its application to the body can lead to orders of magnitude increase in the ALT-signal components related to the heart activity and/or respiration compared to the case when there is no “artificial light texture” and only the “natural light texture” is present during the otherwise equivalent data collection and processing procedure.
+
 Python code which implements video data frames processing for the ALT implementation described above can be found [here](code/simple-ALT-raw.py).
 
 An example of the ALT data captured by the embodiment of the ALT technology described above is shown in the figure below [1]. Real-time data collection was performed at 49 data points per second rate with simultaneous HD video (720p) recording. A person was at 1.5 meters (5 feet) distance from the camera. The camera observed 2/3 of the person's body. Determined rates are:
