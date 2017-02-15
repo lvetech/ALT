@@ -42,11 +42,11 @@ The raw ALT data are shown in the figures below by black line connecting the dat
 
 Snapshots of the scene captured by the cameras are shown to the left of the corresponding data plots. 
 
-![R200 ALT data example](figures/RealSense/R200-ALT-data-example.png) 
+![R200 ALT data example](/figures/RealSense/R200-ALT-data-example.png) 
 
 Figure 1. ALT data obtained using light emitter and IR video stream of a R200 Intel RealSense camera. Snapshot of the scene taken from the R200 IR video stream is shown on the left. A person is sitting in an armchair at about 3 feet distance from the R200 camera. 
 
-![F200 ALT data example](figures/RealSense/F200-ALT-data-example.png) 
+![F200 ALT data example](/figures/RealSense/F200-ALT-data-example.png) 
 
 Figure 2. ALT data obtained using light emitter and IR video stream of a F200 Intel RealSense camera. Snapshot of the scene taken from the F200 IR video stream is shown on the left. A person is sitting on a chair at about 3 feet distance from the F200 camera. 
 
@@ -54,7 +54,7 @@ In the case of the dynamically projected patterns, as we have shown above on the
 
 Note that, similarly to the “Pi Camera + Kinect” ALT system [10], the distance between the F200 or R200 camera and the person can affect how pronounced the heartbeat signal will be during the respiration events. Generally, the closer the camera gets to the person (after passing a certain distance point) the less pronounced the heartbeat signal component in the ALT data becomes during respiration events. Note also that at a large enough distance between the camera and the person there will be virtually no discernable pulse or respiration signal in the ALT data. Adjustments of the camera’s position can be made, for example, based on observing visualizations of the collected ALT data. 
 
-![PiCamera video capture with R200 emitter ALT data example](figures/RealSense/PiCamera-video-capture-with-R200-emitter-ALT-data-example.png) 
+![PiCamera video capture with R200 emitter ALT data example](/figures/RealSense/PiCamera-video-capture-with-R200-emitter-ALT-data-example.png) 
 
 Figure 3. ALT data obtained using light emitter of a R200 Intel RealSense camera and video stream of a Raspberry Pi NoIR camera. Snapshot of the scene taken from the Pi NoIR camera’s video stream is shown on the left. A person is resting in an armchair at about 3 feet distance from the Pi NoIR and R200 cameras. R200 camera’s emitter provided most of the illumination for the scene. We have used the code [12] from our previous “Pi Camera + Kinect” example [10] to generate ALT data shown in this Figure. 
 
