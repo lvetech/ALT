@@ -1,6 +1,6 @@
-##ALT pulse and respiration monitoring using Intel RealSense cameras. 
+## ALT pulse and respiration monitoring using Intel RealSense cameras. 
 
-###*An ALTernative (to depth sensing and 3D object scanning) pulse and respiration monitoring application for Intel RealSense cameras.* 
+### *An ALTernative (to depth sensing and 3D object scanning) pulse and respiration monitoring application for Intel RealSense cameras.* 
 
 Intel RealSense technology [1] enables depth perception, 3D imaging, and feature tracking for virtual reality, robotics, and other applications. Light emitters of RealSense cameras can be used [2] as light source elements for the artificial light texture (ALT) technology [2, 3, 4, 5, 6]. ALT allows obtaining heart rate and respiration rate data for a person in a non-contact fashion. Skin does not need to be exposed for ALT to work [2-6]. ALT does not use depth information [2-6]. 
 
