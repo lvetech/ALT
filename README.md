@@ -1,5 +1,5 @@
-##Artificial Light Texture (ALT) for respiration and heart rate monitoring.
-###*"A motion capture suite made out of light"*.
+## Artificial Light Texture (ALT) for respiration and heart rate monitoring.
+### *"A motion capture suite made out of light"*.
 
 Artificial Light Texture (ALT) technology allows obtaining heart rate and respiration rate information for a person as well as information about other mechanical motions of the person’s body in a non-contact fashion and in real time.
 
@@ -9,7 +9,7 @@ ALT can use inexpensive computing and image capture devices such as Raspberry Pi
 
 Three key components of the ALT technology are:
 
-![An ALT system](figures/An ALT system.jpg)
+![An ALT system](/figures/An-ALT-system.jpg)
 
 A computer, a video camera, and a light source which generates artificial light texture.
 
@@ -41,7 +41,7 @@ Discussion of the relations between the properties of the light texture an ALT-g
 
 Note that the added “artificial light texture” plays the role of an amplification medium for small body movements and its application to the body can lead to orders of magnitude increase in the ALT-signal components related to the heart activity and/or respiration compared to the case when there is no “artificial light texture” and only the “natural light texture” is present during the otherwise equivalent data collection and processing procedure.
 
-Python code which implements video data frames processing for the ALT implementation described above can be found [here](code/simple-ALT-raw.py).
+Python code which implements video data frames processing for the ALT implementation described above can be found [here](/code/simple-ALT-raw.py).
 
 An example of the ALT data captured by the embodiment of the ALT technology described above is shown in the figure below [1]. Real-time data collection was performed at 49 data points per second rate with simultaneous HD video (720p) recording. A person was at 1.5 meters (5 feet) distance from the camera. The camera observed 2/3 of the person's body. Determined rates are:
 
@@ -49,11 +49,11 @@ Respiration rate: 0.24 Hz or 14 respiration cycles per minute.
 
 Heart rate: 1.12 Hz or 67 heartbeats per minute.
 
-![ALT data example](figures/ALT data example.jpg)
+![ALT data example](/figures/ALT-data-example.jpg)
 
 Though ALT configuration described above can operate in virtually any lighting environment, an optical band pass filter which matches wavelengths of the Kinect projector can be used with the Pi NoIR camera to reduce effects of fast (relative to the duration of a heartbeat or an inhale/exhale sequence) large-amplitude ambient light intensity variations such as the ones produced by incandescent light bulbs (at e.g. 60 Hz in the U.S.), especially if the incandescent light bulbs are the only source of light for a scene.
 
-Note that implementations of the ALT technology components (hardware, software) other than the one described above are possible. For example, ALT can use Intel RealSense cameras which generate both static (R200 [9]) and dynamic (F200 [10]) light patterns [4], ALT can use light source elements which emit light on different wavelengths including the ones visible to the human eye, etc. We plan to discuss several alternative implementations of the ALT technology separately.
+Note that implementations of the ALT technology components (hardware, software) other than the one described above are possible. For example, ALT can use Intel RealSense cameras which generate both static (R200 [9]) and dynamic (F200 [10]) light patterns [4], ALT can use light source elements which emit light on different wavelengths including the ones visible to the human eye, etc. We plan to discuss several alternative implementations of the ALT technology separately. We discuss ALT pulse and respiration monitoring using Intel RealSense cameras [here](/code/RealSense/README-RealSense.md).
 
 We also plan to discuss certain applications of the ALT technology such as the ones previously described [3, 4] and provide an example code for those applications.
 
