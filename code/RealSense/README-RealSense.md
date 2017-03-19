@@ -44,6 +44,8 @@ Note that, similarly to the “Pi Camera + Kinect” ALT system [10], the distan
 
 Snapshots of the scene captured by the cameras are shown to the left of the corresponding data plots. 
 
+ALT software was executing the same video data frames processing algorithm described above to generate the data both for F200 and for R200 cameras (Figures 1 and 2). 
+
 ![R200 ALT data example](/figures/RealSense/R200-ALT-data-example.png) 
 
 Figure 1. ALT data obtained using light emitter and IR video stream of a R200 Intel RealSense camera. Snapshot of the scene taken from the R200 IR video stream is shown on the left. A person is sitting in an armchair at about 3 feet distance from the R200 camera. 
