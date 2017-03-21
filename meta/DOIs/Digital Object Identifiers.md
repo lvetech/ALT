@@ -13,3 +13,12 @@ Target URL: https://doi.org/10.5281/zenodo.268047
 Target URL: https://doi.org/10.5281/zenodo.291964 
 
 <a href="https://doi.org/10.5281/zenodo.291964"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.291964.svg" alt="DOI"></a> 
+
+.
+
+**v0.3.0**:
+
+Target URL: https://doi.org/10.5281/zenodo.437186 
+
+<a href="https://doi.org/10.5281/zenodo.437186"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.437186.svg" alt="DOI"></a>
+
