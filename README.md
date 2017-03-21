@@ -23,7 +23,7 @@ You can think about ALT as putting a person in a motion capture suite made out o
 
 Note that the ALT can cover parts of the objects which are in contact (direct or via other objects) with the person’s body (e.g. a chair, a blanket, a bed, floor, etc.) and movements or variations in the shape of such objects resulting from the movements of the person’s body imparted to them can be picked up in the ALT data too. This is why ALT can detect heartbeats and respiration events even when a person is completely hidden under a thick blanket [2].
 
-In one implementation of the ALT technology that we will describe here the light source element is the infrared projector of a Microsoft Kinect for Xbox 360 system, the video camera element is a Pi NoIR camera, and the computing element is a Raspberry Pi single-board computer.
+In one implementation of the ALT technology that we will describe here the light source element is the infrared projector of a Microsoft Kinect for Xbox 360 system, the computing element is a Raspberry Pi single-board computer, and the video camera element is a Pi NoIR camera connected to the Raspberry Pi single-board computer.
 
 Further, video encoding for the video data frames captured by the Pi NoIR camera into H.264 format [11] is performed using Raspberry Pi and functionality provided by Picamera library [12].
 
@@ -31,17 +31,15 @@ Further, a set of the sum of absolute differences (SAD) values [13] is obtained 
 
 Further, the sum of the SAD values in the SAD values set (the sSAD value) is calculated using Raspberry Pi for each of the encoded video data frames for which SAD values set was obtained.
 
-The calculated sSAD values contain information about the respiration and/or heartbeats and/or other mechanical movements of the person over the time period covered by the encoded video data frames. Numeric values representative of the respiration rate and/or heart rate of the person over the time period covered by the encoded video data frames can be obtained, for example, by performing Fourier transformation [14] for the sSAD values.
+Python code which runs on a Raspberry Pi single-board computer having a Pi NoIR camera connected to it and implements the video data frames capture and processing steps described above can be found [here](/code/simple-ALT-raw.py).
 
-Note that the ‘baseline’ of the sSAD values can be in the range of hundreds of thousands while the heartbeats/respiration/other movements signal can have just several percent amplitude relative to the ‘baseline’.
+The calculated sSAD values contain information about the respiration and/or heartbeats and/or other mechanical movements of a person observed by the Pi NoIR camera over the time period covered by the encoded video data frames. Numeric values representative of the respiration rate and/or heart rate of the person over that time period can be obtained, for example, by performing Fourier analysis [14] of the sSAD values.
+
+Note that the added “artificial light texture” plays the role of an amplification medium for small body movements and its application to a person's body can lead to orders of magnitude increase in the ALT-signal (sSAD values) components related to the heart activity and/or respiration of the person compared to the case when there is no “artificial light texture” (e.g. when the ALT-generating light emitter is switched off) and only the “natural light texture” is present during the otherwise equivalent data collection and processing procedure.
+
+Note that the ‘baseline’ of the sSAD values can be in the range of hundreds of thousands while the heartbeats/respiration/other movements signal can have just several percent amplitude relative to the ‘baseline’ even when the “artificial light texture” is applied to a person's body.
 
 As a practical starting point, the Kinect system can be placed at approximately 5 feet distance from a person with the Pi NoIR camera placed in the vicinity of the Kinect. The distance between the Kinect and the person can affect how pronounced the heartbeat signal will be during the respiration events. Generally, the closer Kinect gets to the person (beyond a certain point) the less pronounced the heartbeat signal component in the ALT data becomes during respiration events. Note also that at a large enough distance between the Kinect and the person there will be virtually no discernable pulse or respiration signal in the ALT data. Adjustments of the Kinect and the camera positions can be made, for example, based on observing visualizations of the collected ALT data.
-
-Discussion of the relations between the properties of the light texture an ALT-generating element imparts to the body and the properties of the captured ALT data will be done separately.
-
-Note that the added “artificial light texture” plays the role of an amplification medium for small body movements and its application to the body can lead to orders of magnitude increase in the ALT-signal components related to the heart activity and/or respiration compared to the case when there is no “artificial light texture” and only the “natural light texture” is present during the otherwise equivalent data collection and processing procedure.
-
-Python code which implements video data frames processing for the ALT implementation described above can be found [here](/code/simple-ALT-raw.py).
 
 An example of the ALT data captured by the embodiment of the ALT technology described above is shown in the figure below [1]. Real-time data collection was performed at 49 data points per second rate with simultaneous HD video (720p) recording. A person was at 1.5 meters (5 feet) distance from the camera. The camera observed 2/3 of the person's body. Determined rates are:
 
@@ -53,9 +51,11 @@ Heart rate: 1.12 Hz or 67 heartbeats per minute.
 
 Though ALT configuration described above can operate in virtually any lighting environment, an optical band pass filter which matches wavelengths of the Kinect projector can be used with the Pi NoIR camera to reduce effects of fast (relative to the duration of a heartbeat or an inhale/exhale sequence) large-amplitude ambient light intensity variations such as the ones produced by incandescent light bulbs (at e.g. 60 Hz in the U.S.), especially if the incandescent light bulbs are the only source of light for a scene.
 
-Note that implementations of the ALT technology components (hardware, software) other than the one described above are possible. For example, ALT can use Intel RealSense cameras which generate both static (R200 [9]) and dynamic (F200 [10]) light patterns [4], ALT can use light source elements which emit light on different wavelengths including the ones visible to the human eye, etc. We plan to discuss several alternative implementations of the ALT technology separately. We discuss ALT pulse and respiration monitoring using Intel RealSense cameras [here](/code/RealSense/README-RealSense.md).
+Note that implementations of the ALT technology components (hardware, software) other than the one described above are possible. For example, ALT can use Intel RealSense cameras which generate both static (R200 [9]) and dynamic (F200 [10]) light patterns [4], ALT can use light source elements which emit light on different wavelengths including the ones visible to the human eye, etc. 
 
-We also plan to discuss certain applications of the ALT technology such as the ones previously described [3, 4] and provide an example code for those applications.
+We plan to discuss several alternative implementations of the ALT technology separately. We also plan to discuss certain applications of the ALT technology such as the ones previously described [3, 4] and provide code examples for those applications.
+
+We discuss ALT pulse and respiration monitoring using Intel RealSense cameras [here](/code/RealSense/README-RealSense.md).
 
 **References**:
 
