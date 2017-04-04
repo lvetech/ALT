@@ -19,6 +19,8 @@ Movements of the person’s body which are related to the person’s respiration
 
 These variations are captured by a video camera element in a set of video data frames which are processed by a computing element to result in the numeric values representative of the heart rate and/or respiration rate of the person.
 
+Application of the ALT can largely increase illumination contrast in the scene observed by a camera.
+
 You can think about ALT as putting a person in a motion capture suite made out of light.
 
 Note that the ALT can cover parts of the objects which are in contact (direct or via other objects) with the person’s body (e.g. a chair, a blanket, a bed, floor, etc.) and movements or variations in the shape of such objects resulting from the movements of the person’s body imparted to them can be picked up in the ALT data too. This is why ALT can detect heartbeats and respiration events even when a person is completely hidden under a thick blanket [2].
