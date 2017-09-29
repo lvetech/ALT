@@ -46,7 +46,7 @@ F200:
 //See the implementation description above
 ```
 
-The raw ALT data are shown in the figures below by black line connecting the data points (the calculated SAD values for the captured video frames shown by black dots). The orange and blue lines are 0.2 s and 1 s long (in the equivalent number of data samples) moving averages of the raw data shown to highlight the heartbeat and respiration processes captured in the ALT data, respectively. Numeric values for the heart rate and respiration rate can be obtained, for example, via Fourier data analysis [15]. 
+The raw ALT data are shown in the figures below by black lines connecting the data points (the calculated SAD values for the captured video frames shown by black dots). The orange and blue lines are 0.2 s and 1 s long (in the equivalent number of data samples) moving averages of the raw data shown to highlight the heartbeat and respiration processes captured in the ALT data, respectively. Numeric values for the heart rate and respiration rate can be obtained, for example, via Fourier data analysis [15]. 
 
 Note that, similarly to the “Pi Camera + Kinect” ALT system [10], the distance between the F200 or R200 camera and the person can affect how pronounced the heartbeat signal will be during the respiration events. Generally, the closer the camera gets to the person (after passing a certain distance point) the less pronounced the heartbeat signal component in the ALT data becomes during respiration events. Note also that at a large enough distance between the camera and the person there will be virtually no discernable pulse or respiration signal in the ALT data. Adjustments of the camera’s position can be made, for example, based on observing visualizations of the collected ALT data. 
 
@@ -56,17 +56,17 @@ ALT software was executing the same video data frames processing algorithm descr
 
 ![R200 ALT data example](/figures/RealSense/R200-ALT-data-example.png) 
 
-Figure 1. ALT data obtained using light emitter and IR video stream of a R200 Intel RealSense camera. Snapshot of the scene taken from the R200 IR video stream is shown on the left. A person is sitting in an armchair at about 3 feet distance from the R200 camera. 
+Figure 1. ALT data obtained using the light emitter and IR video stream of a R200 Intel RealSense camera. A snapshot of the scene taken from the R200 IR video stream is shown on the left. A person is sitting in an armchair at about 3 feet distance from the R200 camera. 
 
 ![F200 ALT data example](/figures/RealSense/F200-ALT-data-example.png) 
 
-Figure 2. ALT data obtained using light emitter and IR video stream of a F200 Intel RealSense camera. Snapshot of the scene taken from the F200 IR video stream is shown on the left. A person is sitting on a chair at about 3 feet distance from the F200 camera. 
+Figure 2. ALT data obtained using the light emitter and IR video stream of a F200 Intel RealSense camera. A snapshot of the scene taken from the F200 IR video stream is shown on the left. A person is sitting on a chair at about 3 feet distance from the F200 camera. 
 
-In the case of the dynamically projected patterns, as we have shown above on the example of a F200 Intel RealSence device, body movements, including the ones associated with heartbeats and respiration, lead to the changes in the non-uniform illumination distribution of the scene created by the light emitter of the F200 device, as captured by the infrared camera of the F200 device (the captured non-uniform illumination distribution forms the ‘artificial light texture’), which otherwise would have been absent provided the absence of any motion in the scene. 
+In the case of the dynamically projected patterns, as we have shown above on the example of a F200 Intel RealSence device, body movements, including the ones associated with the heartbeats and respiration, lead to the changes in the non-uniform illumination distribution of the scene created by the light emitter of the F200 device, as captured by the infrared camera of the F200 device (the captured non-uniform illumination distribution forms the ‘artificial light texture’), which otherwise would have been absent provided the absence of any motion in the scene. 
 
 ![PiCamera video capture with R200 emitter ALT data example](/figures/RealSense/PiCamera-video-capture-with-R200-emitter-ALT-data-example.png) 
 
-Figure 3. ALT data obtained using light emitter of a R200 Intel RealSense camera and video stream of a Raspberry Pi NoIR camera. Snapshot of the scene taken from the Pi NoIR camera’s video stream is shown on the left. A person is resting in an armchair at about 3 feet distance from the Pi NoIR and R200 cameras. R200 camera’s emitter provided most of the illumination for the scene. We have used the code [12] from our previous “Pi Camera + Kinect” example [10] to generate the ALT data shown in this Figure. 
+Figure 3. ALT data obtained using the light emitter of a R200 Intel RealSense camera and the video stream of a Raspberry Pi NoIR camera. A snapshot of the scene taken from the Pi NoIR camera’s video stream is shown on the left. A person is resting in an armchair at about 3 feet distance from the Pi NoIR and R200 cameras. R200 camera’s emitter provided most of the illumination for the scene. We have used the code [12] from our previous “Pi Camera + Kinect” example [10] to generate the ALT data shown in this Figure. 
 
 As ALT implementations described above and before [10] demonstrate, ALT technology does not rely on any particular kind of light pattern (statically and/or dynamically projected). ALT does not use depth information encoded in the light patterns projected by the depth sensing devices such as Kinect and RealSense cameras. 
 
