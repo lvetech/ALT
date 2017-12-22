@@ -5,7 +5,7 @@ Artificial Light Texture (ALT) technology allows obtaining heart rate and respir
 
 Skin does not need to be exposed for ALT to work [1, 2, 3, 4]. ALT does not use depth information [1-4].
 
-ALT can use inexpensive computing and image capture devices such as Raspberry Pi single-board computer [5] and Pi NoIR camera [6] and is compatible with light emitting elements of different consumer electronics devices such as light projectors of standalone or embedded depth sensing systems like Microsoft Kinect [7; see below] and Intel RealSense cameras [8-10].
+ALT can use inexpensive computing and image capture devices such as Raspberry Pi single-board computer [5] and Pi NoIR camera [6] and is compatible with light emitting elements of different consumer electronics devices such as light projectors of standalone or embedded depth sensing systems like Microsoft Kinect [7; see below], Intel RealSense cameras [8-10], and Occipital Structure Sensor [11].
 
 **We discuss ALT pulse and respiration monitoring using RealSense cameras [here](/code/RealSense/README-RealSense.md)**.
 
@@ -29,15 +29,15 @@ Note that the ALT can cover parts of the objects which are in contact (direct or
 
 In one implementation of the ALT technology that we will describe here the light source element is the infrared projector of a Microsoft Kinect for Xbox 360 system, the computing element is a Raspberry Pi single-board computer, and the video camera element is a Pi NoIR camera connected to the Raspberry Pi single-board computer.
 
-Further, video encoding for the video data frames captured by the Pi NoIR camera into H.264 format [11] is performed using Raspberry Pi and functionality provided by Picamera library [12].
+Further, video encoding for the video data frames captured by the Pi NoIR camera into H.264 format [12] is performed using Raspberry Pi and functionality provided by Picamera library [13].
 
-Further, a set of the sum of absolute differences (SAD) values [13] is obtained for (ideally) each of the encoded video data frames using Raspberry Pi and functionality provided by Picamera library.
+Further, a set of the sum of absolute differences (SAD) values [14] is obtained for (ideally) each of the encoded video data frames using Raspberry Pi and functionality provided by Picamera library.
 
 Further, the sum of the SAD values in the SAD values set (the sSAD value) is calculated using Raspberry Pi for each of the encoded video data frames for which SAD values set was obtained.
 
 Python code which runs on a Raspberry Pi single-board computer having a Pi NoIR camera connected to it and implements the video data frames capture and processing steps described above can be found [here](/code/simple-ALT-raw.py).
 
-The calculated sSAD values contain information about the respiration and/or heartbeats and/or other mechanical movements of a person observed by the Pi NoIR camera over the time period covered by the encoded video data frames. Numeric values representative of the respiration rate and/or heart rate of the person over that time period can be obtained, for example, by performing Fourier analysis [14] of the sSAD values.
+The calculated sSAD values contain information about the respiration and/or heartbeats and/or other mechanical movements of a person observed by the Pi NoIR camera over the time period covered by the encoded video data frames. Numeric values representative of the respiration rate and/or heart rate of the person over that time period can be obtained, for example, by performing Fourier analysis [15] of the sSAD values.
 
 Note that the added “artificial light texture” plays the role of an amplification medium for small body movements and its application to a person's body can lead to orders of magnitude increase in the ALT-signal (sSAD values) components related to the heart activity and/or respiration of the person compared to the case when there is no “artificial light texture” (e.g. when the ALT-generating light emitter is switched off) and only the “natural light texture” is present during the otherwise equivalent data collection and processing procedure.
 
@@ -81,15 +81,17 @@ We discuss ALT pulse and respiration monitoring using Intel RealSense cameras [h
 
 9. “Introducing the Intel® RealSenseTM R200 Camera (world facing)” https://software.intel.com/en-us/articles/realsense-r200-camera
 
-10. “Can Your Webcam Do This? - Exploring the Intel® RealSenseTM 3D Camera (F200)” https://software.intel.com/en-us/blogs/2015/01/26/can-your-webcam-do-this
+10. “Can Your Webcam Do This? - Exploring the Intel® RealSenseTM 3D Camera (F200)” https://software.intel.com/en-us/blogs/2015/01/26/can-your-webcam-do-this 
 
-11. "H.264/MPEG-4 AVC" https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC
+11. “3D scanning, augmented reality, and more for mobile devices”, https://structure.io 
 
-12. http://picamera.readthedocs.io
+12. "H.264/MPEG-4 AVC" https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC
 
-13. "Sum of absolute differences" https://en.wikipedia.org/wiki/Sum_of_absolute_differences
+13. http://picamera.readthedocs.io
 
-14. “Short-time Fourier transform” https://en.wikipedia.org/wiki/Short-time_Fourier_transform
+14. "Sum of absolute differences" https://en.wikipedia.org/wiki/Sum_of_absolute_differences
+
+15. “Short-time Fourier transform” https://en.wikipedia.org/wiki/Short-time_Fourier_transform
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">ALT</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.linkedin.com/in/alexmisharin" property="cc:attributionName" rel="cc:attributionURL">Alexander Misharin, LVE Technologies LLC</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
