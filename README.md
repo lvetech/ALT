@@ -1,4 +1,4 @@
-## Artificial Light Texture (ALT) for respiration and heart rate monitoring.
+## Artificial Light Texture (ALT) technology for respiration and heart rate monitoring.
 ### *"A motion capture suite made out of light"*.
 
 Artificial Light Texture (ALT) technology allows obtaining heart rate and respiration rate information for a person as well as information about other mechanical motions of the person’s body in a non-contact fashion and in real time.
