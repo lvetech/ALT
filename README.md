@@ -5,7 +5,7 @@ Artificial Light Texture (ALT) technology allows obtaining heart rate and respir
 
 Skin does not need to be exposed for ALT to work [1, 2, 3, 4]. ALT does not use depth information [1-4].
 
-ALT can use inexpensive computing and image capture devices such as Raspberry Pi single-board computer [5] and Pi NoIR camera [6] and is compatible with light emitting elements of different consumer electronics devices such as light projectors of standalone or embedded depth sensing systems like Microsoft Kinect [7; see below], Intel RealSense cameras [8-10], and Occipital Structure Sensor [11].
+ALT can use inexpensive computing and image capture devices such as Raspberry Pi single-board computer [5] and Pi NoIR camera [6] and is compatible with light emitting elements of different consumer electronics devices such as light projectors of standalone or embedded depth sensing systems like Microsoft Kinect [7; see below], Intel RealSense cameras [8-10], and Occipital Structure Sensor ([11]; see [Non-contact vital signs monitoring on mobile devices: an iPad + Structure Sensor example](https://www.linkedin.com/pulse/non-contact-vital-signs-monitoring-mobile-devices-ipad-misharin/)).
 
 **We discuss ALT pulse and respiration monitoring using RealSense cameras [here](/code/RealSense/README-RealSense.md)**.
 
