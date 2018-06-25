@@ -70,6 +70,10 @@ Figure 3. ALT data obtained using the light emitter of a R200 Intel RealSense ca
 
 As ALT implementations described above and before [10] demonstrate, ALT technology does not rely on any particular kind of light pattern (statically and/or dynamically projected). ALT does not use depth information encoded in the light patterns projected by the depth sensing devices such as Kinect and RealSense cameras. 
 
+The video linked below demonstrates real-time non-contact heartbeats and respiration monitoring using an ALT system consisting of an Intel RealSense D415 camera and a Microsoft Surface tablet/laptop. The plot in the video shows raw real-time ALT data calculated according to the implementation described above. The heartbeats signal amplitude during the inhale/exhale is smaller compared to that in between the respiration cycles. Respiration modulates the heartbeats signal amplitude. 
+
+https://youtu.be/q6DBsNcLuG0 
+
 
 **References**: 
 
