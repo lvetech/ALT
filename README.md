@@ -1,5 +1,11 @@
 ## The Artificial Light Texture (ALT) technology for vital signs (heartbeats, respiration), sleep, and motor activity monitoring.
-### *"A motion capture suite made out of light"*.
+### *"A motion capture suite made out of light"*. 
+
+**Quick links**: 
+
+1. [ALT tech -based pulse and respiration monitoring using Intel RealSense cameras;](/code/RealSense/README-RealSense.md) 
+
+2. [Non-contact vital signs monitoring on mobile devices: an iPad + Structure Sensor example.](https://www.linkedin.com/pulse/non-contact-vital-signs-monitoring-mobile-devices-ipad-misharin/)
 
 The Artificial Light Texture (ALT) technology allows obtaining heart rate and respiration rate information for a person as well as information about other mechanical movements of the person’s body in a non-contact fashion and in real time.
 
