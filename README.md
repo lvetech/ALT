@@ -3,9 +3,9 @@
 
 **Quick links**: 
 
-1. [ALT tech -based pulse and respiration monitoring using Intel RealSense cameras;](/code/RealSense/README-RealSense.md) 
+1. [ALT technology -based pulse and respiration monitoring using Intel RealSense cameras;](/code/RealSense/README-RealSense.md) 
 
-2. [ALT tech -based non-contact vital signs monitoring on mobile devices: an iPad + Structure Sensor example.](https://www.linkedin.com/pulse/non-contact-vital-signs-monitoring-mobile-devices-ipad-misharin/)
+2. [ALT technology -based non-contact vital signs monitoring on mobile devices: an iPad + Structure Sensor example.](https://www.linkedin.com/pulse/non-contact-vital-signs-monitoring-mobile-devices-ipad-misharin/)
 
 
 **What is ALT?** 
@@ -40,7 +40,7 @@ The ALT can cover parts of the objects which are in contact (direct or via other
 
 **Example ALT systems**
 
-In one implementation of the ALT technology that we will describe here the light source element is the infrared light projector of a Microsoft Kinect for Xbox 360 system, the computing element is a Raspberry Pi single-board computer, and the video camera element is a Pi NoIR camera.  Both the Kinect system and the Pi NoIR camera are connected to and controlled by the Raspberry Pi single-board computer.
+In one implementation of the ALT technology that we will describe here, the light source element is the infrared light projector of a Microsoft Kinect for Xbox 360 system, the computing element is a Raspberry Pi single-board computer, and the video camera element is a Pi NoIR camera.  Both the Kinect system and the Pi NoIR camera are connected to and controlled by the Raspberry Pi single-board computer.
 
 ALT data that capture heartbeats and respiration of a person are obtained in this system in the following way: 
 
@@ -54,7 +54,7 @@ Further, the sum of the SAD values in the obtained SAD values set (the sSAD valu
 
 Python code which runs on a Raspberry Pi single-board computer having a Pi NoIR camera connected to it and implements the video frames capture and processing steps described above can be found [here](/code/simple-ALT-raw.py).  Microsoft Kinect can be connectd to and its emitter controlled by the same Raspberry Pi single-board computer.   
 
-The calculated sSAD values contain information about the respiration and/or heartbeats and/or other mechanical movements of a person observed by the Pi NoIR camera over the time period covered by the encoded video frames. Numeric values representative of the respiration rate and/or heart rate of the person over that time period can be obtained, for example, by performing Fourier analysis [15] of the sSAD values.
+The calculated sSAD values contain information about the respiration, heartbeats, and other movements of a person (e.g., movemens of arms, legs etc.) observed by the Pi NoIR camera over the time period covered by the encoded video frames. Numeric values representative of the respiration rate and/or heart rate of the person over that time period can be obtained, for example, by performing Fourier analysis [15] of the sSAD values.
 
 Note that the ‘baseline’ of the sSAD values can be in the range of hundreds of thousands while the heartbeats/respiration/other movements signal can have just several percent amplitude relative to the ‘baseline’ even when the “artificial light texture” is applied to a person's body. 
 
@@ -71,8 +71,6 @@ Heart rate: 1.12 Hz or 67 heartbeats per minute.
 Though the ALT system described above can operate in virtually any lighting environment, an optical band pass filter which matches the wavelengths of the Kinect projector can be used with the Pi NoIR camera to reduce effects of fast (relative to the duration of a heartbeat or an inhale/exhale sequence) large-amplitude ambient light intensity variations such as the ones produced by incandescent light bulbs (at e.g. 60 Hz in the U.S.), especially if the incandescent light bulbs are the only source of light for a scene.
 
 Implementations of the ALT technology components (hardware, software) other than the one described above are possible.  For example, we have shown that ALT systems can use Intel RealSense cameras which generate both static (R200 [9], D415 [16], D435 [16]) and dynamic (F200 [10]) light patterns [4].  The ALT technology can use light source elements which emit light on different wavelengths either visible or invisible to a human eye, depending on the needs of a particular application.  
-
-We plan to discuss several alternative implementations of the ALT technology separately.  We also plan to discuss certain applications of the ALT technology such as the ones previously described [3, 4] and others, and to provide code examples for those applications.
 
 
 **References**:
