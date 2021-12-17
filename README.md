@@ -1,7 +1,7 @@
 ## The Artificial Light Texture (ALT) technology for non-contact vital signs (heartbeats, respiration) monitoring.
 ### *"A motion capture suite made out of light"*. 
 
-**Interested in using ALT tech in your research project?  Let us know: info(at)lvetechnologies.com** 
+**Thinking about using ALT tech in your research project? Have questions or comments? We would love to hear from you: info(at)lvetechnologies.com** 
 
 **Quick links**: 
 
