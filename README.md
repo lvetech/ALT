@@ -1,13 +1,13 @@
 ## The Artificial Light Texture (ALT) technology for non-contact vital signs (heartbeats, respiration) monitoring.
 ### *"A motion capture suite made out of light"*. 
 
-**Thinking about using ALT tech in your research project? Have questions or comments? We would love to hear from you: info(at)lvetechnologies.com** 
-
 **Quick links**: 
 
 1. [ALT technology based pulse and respiration monitoring using Intel RealSense cameras;](/code/RealSense/README-RealSense.md) 
 
-2. [ALT technology based non-contact vital signs monitoring on mobile devices: an iPad + Structure Sensor example.](https://www.linkedin.com/pulse/non-contact-vital-signs-monitoring-mobile-devices-ipad-misharin/)
+2. [ALT technology based non-contact vital signs monitoring on mobile devices: an iPad + Structure Sensor example.](https://www.linkedin.com/pulse/non-contact-vital-signs-monitoring-mobile-devices-ipad-misharin/) 
+
+3. [Making heartbeats audible using this technology (YouTube video)](https://www.youtube.com/watch?v=GjsK-wyKPf4)  
 
 
 **What is ALT?** 
@@ -77,8 +77,9 @@ Although the ALT system described above can operate in virtually any lighting en
 
 Implementations of the ALT technology components (hardware, software) other than the one described above habe been demonstrated.  For example, we have shown that ALT systems can use Intel RealSense cameras which generate both static (R200 [9], D415 [16], D435 [16]) and dynamic (F200 [10]) light patterns [4].  The ALT technology can use light source elements which emit light on different wavelengths either visible or invisible to a human eye, depending on the needs of a particular application.  
 
+**Qestions? Comments? Drop us a line: info(at)lvetechnologies.com** 
 
-**References**:
+**References** (NOTE: some links can become outdated):
 
 1. “Non-contact real-time monitoring of heart and respiration rates using Artificial Light Texture" https://www.linkedin.com/pulse/use-artificial-light-texture-non-contact-real-time-heart-misharin
 
