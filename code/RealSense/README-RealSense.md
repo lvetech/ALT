@@ -65,7 +65,7 @@ In the case of the dynamically projected patterns, as we have shown above on the
 As the ALT technology implementations described above and before [10] demonstrate, the ALT technology does not rely on any particular kind of light pattern (statically and/or dynamically projected). The ALT technology also does not use depth information encoded in the light patterns projected by the depth sensing devices such as Kinect or RealSense cameras in order to obtain vital signs information. 
 
 
-**References**: 
+**References** (NOTE: some links can become outdated): 
 
 1. http://www.intel.com/content/www/us/en/architecture-and-technology/realsense-overview.html 
 
