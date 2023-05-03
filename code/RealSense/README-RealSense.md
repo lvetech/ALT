@@ -2,8 +2,6 @@
 
 ### *An ALTernative (to the depth sensing and 3D object scanning) vital signs, sleep, and motor activity monitoring application for Intel RealSense cameras.* 
 
-**Thinking about using ALT tech in your research project? Have questions or comments? We would love to hear from you: info(at)lvetechnologies.com**
-
 Principles of the ALT technology operation and its example implementation using Microsoft Kinect, Raspberry Pi, and Pi NoIR camera are described [here](/README.md). Below, we describe some results obtained using ALT systems based on different Intel RealSense cameras and also outline some features and alternative implementations of the ALT tech which were not covered [before](/README.md). 
 
 Intel RealSense technology [1] enables depth perception, 3D imaging, and feature tracking for virtual reality, robotics, and other applications. Light emitters of RealSense cameras can be used [2] as light source elements for the artificial light texture (ALT) technology [2, 3, 4, 5, 6]. ALT allows obtaining heart rate and respiration rate data for a person in a non-contact fashion. Skin of the person does not have to be exposed to a camera in order for ALT to work [2-6]. ALT does not use depth data to obtain the vital signs information [2-6]. 
@@ -64,6 +62,7 @@ In the case of the dynamically projected patterns, as we have shown above on the
 
 As the ALT technology implementations described above and before [10] demonstrate, the ALT technology does not rely on any particular kind of light pattern (statically and/or dynamically projected). The ALT technology also does not use depth information encoded in the light patterns projected by the depth sensing devices such as Kinect or RealSense cameras in order to obtain vital signs information. 
 
+<br>
 
 **References** (NOTE: some links can become outdated): 
 
@@ -103,5 +102,6 @@ https://www.linkedin.com/pulse/alt-pulse-respiration-monitoring-using-intel-came
 
 16. https://realsense.intel.com/stereo/ 
 
+<br>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">ALT</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.linkedin.com/in/alexmisharin" property="cc:attributionName" rel="cc:attributionURL">Alexander Misharin, LVE Technologies LLC</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. The full text of the CC BY-NC-SA 4.0 license can be found at [https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). Contact [LVE Technologies LLC](https://lvetechnologies.com/) if you would like to obtain a commercial license: info(at)lvetechnologies.com 
 
