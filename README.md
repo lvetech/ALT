@@ -77,14 +77,15 @@ Implementations of the ALT technology components (hardware, software) other than
 
 <br> 
 
-**Qestions? Comments? Drop us a line**: info(at)lvetechnologies.com 
+**Qestions? Comments?**: info(at)lvetechnologies.com 
 
-**Want us to publish an example code that works with RealSense cameras?** <br>
-Say "yes" but putting some coins in the tip jar: **bc1qg7j26tlw60mtt9vsczu6rzxlvuyql78a0xf3pr** (BTC) 
+**Want us to publish an example code that works with RealSense cameras?** Say "yes" but putting some coins in the tip jar: **bc1qg7j26tlw60mtt9vsczu6rzxlvuyql78a0xf3pr** (BTC) 
 
-<br>
+**See also**: 
 
-[For fun: Making heartbeats audible using ALT tech (YouTube video)](https://www.youtube.com/watch?v=GjsK-wyKPf4)  
+[Medium articles related to contactless sleep monitoring using ALT tech.](https://medium.com/@thetechnomage/table-of-contents-80dea07a42e1) 
+
+[Making heartbeats audible using ALT tech (YouTube video)](https://www.youtube.com/watch?v=GjsK-wyKPf4)  
 
 <br>
 
