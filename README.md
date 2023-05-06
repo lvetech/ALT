@@ -83,7 +83,7 @@ Implementations of the ALT technology components (hardware, software) other than
 
 **See also**: 
 
-[Medium articles related to contactless sleep monitoring using ALT tech.](https://medium.com/@thetechnomage/table-of-contents-80dea07a42e1) 
+[Articles on Medium related to contactless sleep monitoring using ALT tech.](https://medium.com/@thetechnomage/table-of-contents-80dea07a42e1) 
 
 [Making heartbeats audible using ALT tech (YouTube video)](https://www.youtube.com/watch?v=GjsK-wyKPf4)  
 
