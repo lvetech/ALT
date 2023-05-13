@@ -7,6 +7,8 @@
 
 2. [ALT technology based non-contact vital signs monitoring on mobile devices: an iPad + Structure Sensor example](https://www.linkedin.com/pulse/non-contact-vital-signs-monitoring-mobile-devices-ipad-misharin/) 
 
+3. [Articles on Medium related to contactless sleep monitoring using ALT tech.](https://medium.com/@thetechnomage/table-of-contents-80dea07a42e1) 
+
 
 **What is ALT?** 
 
@@ -79,13 +81,13 @@ Implementations of the ALT technology components (hardware, software) other than
 
 **Qestions? Comments?**: info(at)lvetechnologies.com 
 
-**Want us to publish an example code that works with RealSense cameras?** Say "yes" but putting some coins in the tip jar: **bc1qg7j26tlw60mtt9vsczu6rzxlvuyql78a0xf3pr** (BTC) 
+<br>
 
-**See also**: 
+**Tip jar:** bc1qg7j26tlw60mtt9vsczu6rzxlvuyql78a0xf3pr (BTC) 
 
-[Articles on Medium related to contactless sleep monitoring using ALT tech.](https://medium.com/@thetechnomage/table-of-contents-80dea07a42e1) 
+<br>
 
-[Making heartbeats audible using ALT tech (YouTube video)](https://www.youtube.com/watch?v=GjsK-wyKPf4)  
+**See also**: [Making heartbeats audible using ALT tech (YouTube video)](https://www.youtube.com/watch?v=GjsK-wyKPf4)  
 
 <br>
 
