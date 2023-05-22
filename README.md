@@ -79,7 +79,7 @@ Implementations of the ALT technology components (hardware, software) other than
 
 <br> 
 
-**Qestions? Comments?**: info(at)lvetechnologies.com 
+**Qestions? Comments?**: info(at)lvetechnologies.com; https://lvetechnologies.com/
 
 <br>
 
