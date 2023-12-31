@@ -3,11 +3,11 @@
 
 **Quick links**: 
 
-1. [[GitHub] ALT technology based pulse and respiration monitoring using Intel RealSense cameras](/code/RealSense/README-RealSense.md) 
+1. [GitHub] [ALT technology based pulse and respiration monitoring using Intel RealSense cameras](/code/RealSense/README-RealSense.md) 
 
-2. [[on LinkedIn, you need to be logged in] ALT technology based non-contact vital signs monitoring on mobile devices: an iPad + Structure Sensor example](https://www.linkedin.com/pulse/non-contact-vital-signs-monitoring-mobile-devices-ipad-misharin/) 
+2. [LinkedIn, you need to be logged in] [ALT technology based non-contact vital signs monitoring on mobile devices: an iPad + Structure Sensor example](https://www.linkedin.com/pulse/non-contact-vital-signs-monitoring-mobile-devices-ipad-misharin/) 
 
-3. [[Medium] Articles on Medium related to contactless sleep monitoring using ALT tech.](https://medium.com/@thetechnomage/table-of-contents-80dea07a42e1)
+3. [Medium] [Articles on Medium related to contactless sleep monitoring using ALT tech.](https://medium.com/@thetechnomage/table-of-contents-80dea07a42e1)
    
    A [video](https://youtu.be/EyW02wkQVjU) (YouTube; **Tip**: set the video playback parameters to 1440p60 for this video for better video quality) from one of the [articles on Medium](https://medium.com/@thetechnomage/breathing-in-my-sleep-from-ok-to-ugly-an-example-of-a-mostly-ok-case-c7abd94a75e1) showcasing the use of ALT tech for monitoring respiration during sleep.  **A screenshot from the video**:
    ![An example of using the ALT tech to monitor respiration during sleep](/figures/sleep-monitoring-example.png)
