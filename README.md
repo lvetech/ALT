@@ -3,9 +3,9 @@
 
 **Quick links**: 
 
-1. [GitHub] [ALT technology based pulse and respiration monitoring using Intel RealSense cameras](/code/RealSense/README-RealSense.md) 
+1. [GitHub] [ALT technology based pulse and respiration monitoring using Intel RealSense cameras.](/code/RealSense/README-RealSense.md) 
 
-2. [LinkedIn, you need to be logged in] [ALT technology based non-contact vital signs monitoring on mobile devices: an iPad + Structure Sensor example](https://www.linkedin.com/pulse/non-contact-vital-signs-monitoring-mobile-devices-ipad-misharin/) 
+2. [LinkedIn, you need to be logged in] [ALT technology based non-contact vital signs monitoring on mobile devices: an iPad + Structure Sensor example.](https://www.linkedin.com/pulse/non-contact-vital-signs-monitoring-mobile-devices-ipad-misharin/) 
 
 3. [Medium] [Articles on Medium related to contactless sleep monitoring using ALT tech.](https://medium.com/@thetechnomage/table-of-contents-80dea07a42e1)
    
