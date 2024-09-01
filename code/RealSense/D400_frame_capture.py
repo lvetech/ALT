@@ -47,7 +47,7 @@ def capture_frames(shared_frame, shared_frame_number, stop_signal):
     # Start the camera
     profile = pipeline.start(config)
 
-    # Set the laser power to maximum for better depth accuracy
+    # Set the laser power to maximum
     device = profile.get_device()
     depth_sensor = device.first_depth_sensor()
     depth_sensor.set_option(rs.option.laser_power, depth_sensor.get_option_range(rs.option.laser_power).max)
