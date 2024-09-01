@@ -72,4 +72,4 @@ To run the script, simply execute it in an environment where the required depend
 
 ## Further Analysis
 
-For detailed analysis of the captured frames, such as determining the percentage of lost frames and calculating the effective FPS, you can use a complementary script available [here](./) (placeholder link). This second script reads the metadata file created by the frame capture process and provides detailed statistics on frame continuity and performance. This analysis can help you understand the impact of computational resource limitations on frame capture reliability.
+For detailed analysis of the captured frames, such as determining the percentage of lost frames and calculating the effective FPS, you can use a complementary script available [here](meta_file_processing.py). Instructions for that script can be found [here](Instructions%20for%20the%20%22meta_file_processing.py%22.md). This second script reads the metadata file created by the frame capture process and provides detailed statistics on frame continuity and performance. This analysis can help you understand the impact of computational resource limitations on frame capture reliability.
