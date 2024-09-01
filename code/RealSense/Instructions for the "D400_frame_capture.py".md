@@ -1,4 +1,4 @@
-# Instructions for the [Frame Capture Script for D400-Series Intel RealSense Cameras](RealSense/D400_frame_capture.py)
+# Instructions for the [Frame Capture Script for D400-Series Intel RealSense Cameras](D400_frame_capture.py)
 
 This Python script is designed to capture infrared (IR) frames from Intel RealSense D400 series cameras. It displays the infrared frames in real-time using OpenCV, saves the captured IR frames to disk, and logs metadata related to each frame, such as frame numbers and timestamps. The script is tailored for use with the Intel RealSense D400 series cameras, which are powerful depth-sensing devices widely used in various applications, including robotics, 3D scanning, and computer vision. You can learn more about the Intel RealSense D400 series on [Intel's website](https://www.intelrealsense.com/).
 
