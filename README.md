@@ -10,8 +10,8 @@
 
 4. [Medium] [Articles on Medium related to contactless sleep monitoring using ALT tech.](https://medium.com/@thetechnomage/table-of-contents-80dea07a42e1)
    
-   A [video](https://youtu.be/EyW02wkQVjU) (YouTube; **Tip**: set the video playback parameters to 1440p60 for this video for better video quality) from one of the [articles on Medium](https://medium.com/@thetechnomage/breathing-in-my-sleep-from-ok-to-ugly-an-example-of-a-mostly-ok-case-c7abd94a75e1) showcasing the use of ALT tech for monitoring respiration during sleep.  **A screenshot from the video**:
-   ![An example of using the ALT tech to monitor respiration during sleep](/figures/sleep-monitoring-example.png)
+   A [video](https://www.youtube.com/watch?v=AaSIovhYx70) (YouTube; **Tip**: set the video playback parameters to 1440p60 for this video for better video quality) from [one of the articles on Medium](https://medium.com/@thetechnomage/a-contact-free-snapshot-of-breathing-and-heartbeats-during-sleep-00b11fcf5a5a) showcasing the use of ALT tech for monitoring respiration and heartbeats during sleep.  **A screenshot from the video**:
+   ![An example of using the ALT tech to monitor respiration during sleep](/figures/frame_1161381.png)
    
 
 
